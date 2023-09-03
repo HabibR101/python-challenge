@@ -15,7 +15,7 @@ greatest_decrease = 0
 
 #Path to open Budget Data
 
-csvpath = os.path.join('/Users/HabibRehman/Documents/Data Analytics/Module_3/Starter_Code/Resources/budget_data.csv')
+csvpath = os.path.join('/Module_3/Starter_Code/Resources/budget_data.csv')
 
 
 # Action to open CSV and read
@@ -67,7 +67,7 @@ print(f"Average Change: ${average_change}")
 print(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})")
 print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
 
-output_path = os.path.join('/Users/HabibRehman/Documents/Data Analytics/Module_3/Starter_Code/PyBank/financial_analysis.txt')
+output_path = os.path.join('/Module_3/Starter_Code/PyBank/financial_analysis.txt')
 
 with open(output_path, 'w', newline='') as txt:
 
