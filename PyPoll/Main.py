@@ -11,7 +11,7 @@ voters_list = []
 
 #Path to open election Data
 
-csvpath = os.path.join('/Users/HabibRehman/Documents/Data Analytics/Module_3/Starter_Code/Resources/election_data.csv')
+csvpath = os.path.join('/Module_3/Starter_Code/Resources/election_data.csv')
 
 
 # Action to open CSV and read
@@ -55,7 +55,7 @@ print("-" * 25)
 print(f"Winner: {candidate_list[voters_list.index(max(voters_list))]}")
 print("-" * 25)
 
-output_path = os.path.join('/Users/HabibRehman/Documents/Data Analytics/Module_3/Starter_Code/PyPoll/election_results.txt')
+output_path = os.path.join('/Module_3/Starter_Code/PyPoll/election_results.txt')
 
 
 # export txt file of results
